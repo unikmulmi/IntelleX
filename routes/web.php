@@ -21,3 +21,7 @@ Route::get('/events', function () {
 Route::get('/contact', function () {
     return view('contact');
 })->name('contact');
+
+Route::get('/gallery', function () {
+    return view('gallery');
+})->name('gallery');

@@ -9,7 +9,7 @@
                     <img src="{{ Vite::asset('resources/images/Intellex.svg') }}" alt="IntelleX" class="h-20 w-auto">
                 </a>
                 <p class="text-gray-400 mb-6 leading-relaxed">
-                    Excellence in Education since 2005.
+                    Excellence in Education since 2015.
                     Shaping tomorrow's leaders today with curiosity, opportunity, and inspiration.
                 </p>
                 <div class="flex space-x-6"> <!-- Increased spacing for better look -->
@@ -57,10 +57,10 @@
                             class="hover:text-indigo-400 transition-colors duration-300">About Us</a></li>
                     <li><a href="{{ route('courses') }}"
                             class="hover:text-indigo-400 transition-colors duration-300">Courses</a></li>
-                    <li><a href="{{ route('events') }}"
+                    <li><a href="{{ route('gallery') }}"
+                            class="hover:text-indigo-400 transition-colors duration-300">Gallery</a></li>
+                    <li><a href="{{ route('gallery') }}"
                             class="hover:text-indigo-400 transition-colors duration-300">Events</a></li>
-                    <li><a href="{{ route('contact') }}"
-                            class="hover:text-indigo-400 transition-colors duration-300">Contact</a></li>
                 </ul>
             </div>
 
@@ -68,14 +68,13 @@
             <div>
                 <h3 class="text-xl font-bold text-white mb-6">Admissions & Resources</h3>
                 <ul class="space-y-4">
-                    <li><a href="#" class="hover:text-indigo-400 transition-colors duration-300">Admissions
-                            Process</a></li>
-                    <li><a href="#" class="hover:text-indigo-400 transition-colors duration-300">Fee Structure</a>
+                    <li><a href="#" class="hover:text-indigo-400 transition-colors duration-300">How to Apply</a></li>
+                    <li><a href="#" class="hover:text-indigo-400 transition-colors duration-300">Admission Requirements</a>
                     </li>
-                    <li><a href="#" class="hover:text-indigo-400 transition-colors duration-300">Scholarships</a>
+                    <li><a href="#" class="hover:text-indigo-400 transition-colors duration-300">Tuition & Fees</a>
                     </li>
-                    <li><a href="#" class="hover:text-indigo-400 transition-colors duration-300">Gallery</a></li>
-                    <li><a href="#" class="hover:text-indigo-400 transition-colors duration-300">Parent Portal</a>
+                    <li><a href="#" class="hover:text-indigo-400 transition-colors duration-300">Scholarships</a></li>
+                    <li><a href="#" class="hover:text-indigo-400 transition-colors duration-300">Application Deadlines</a>
                     </li>
                 </ul>
             </div>

@@ -17,7 +17,7 @@
             <div class="max-w-4xl mx-auto">
                 <!-- Small tagline -->
                 <p class="text-lg md:text-xl font-medium tracking-wider text-blue-200 uppercase mb-4 animate-fade-in">
-                    Excellence in Education Since 2005
+                    Excellence in Education Since 2015
                 </p>
 
                 <!-- Main Headline -->
@@ -50,17 +50,17 @@
                 <div class="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-8 text-center max-w-5xl mx-auto">
                     <div>
                         <div class="text-4xl md:text-5xl font-bold text-yellow-300">4.9/5</div>
-                        <p class="text-gray-300 mt-2">Parents Satisfaction</p>
+                        <p class="text-gray-300 mt-2">Student Satisfaction</p>
                     </div>
 
                     <div>
-                        <div class="text-4xl md:text-5xl font-bold text-yellow-300">98%</div>
-                        <p class="text-gray-300 mt-2">University Placement</p>
+                        <div class="text-4xl md:text-5xl font-bold text-yellow-300">95%</div>
+                        <p class="text-gray-300 mt-2">Graduate Success Rate</p>
                     </div>
 
                     <div>
-                        <div class="text-4xl md:text-5xl font-bold text-yellow-300">45+</div>
-                        <p class="text-gray-300 mt-2">National Awards Since Inception</p>
+                        <div class="text-4xl md:text-5xl font-bold text-yellow-300">25+</div>
+                        <p class="text-gray-300 mt-2">Academic Programs</p>
                     </div>
                 </div>
             </div>
@@ -104,9 +104,9 @@
                                 </path>
                             </svg>
                         </div>
-                        <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">1000<span
+                        <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">10,000+<span
                                 class="text-blue-600">+</span></h3>
-                        <p class="text-gray-600 font-medium">Learners Enrolled</p>
+                        <p class="text-gray-600 font-medium">Alumni Worldwide</p>
                     </div>
                 </div>
 
@@ -126,7 +126,7 @@
                         </div>
                         <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">180<span
                                 class="text-green-600">+</span></h3>
-                        <p class="text-gray-600 font-medium">Certified Instructors</p>
+                        <p class="text-gray-600 font-medium">Faculty Members</p>
                     </div>
                 </div>
 
@@ -148,9 +148,9 @@
                                 </path>
                             </svg>
                         </div>
-                        <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">97<span
+                        <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">95<span
                                 class="text-purple-600">%</span></h3>
-                        <p class="text-gray-600 font-medium">Course Completion Rate</p>
+                        <p class="text-gray-600 font-medium">Graduation Success Rate</p>
                     </div>
                 </div>
 
@@ -170,9 +170,9 @@
                                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                             </svg>
                         </div>
-                        <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">150<span
+                        <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">25<span
                                 class="text-amber-600">+</span></h3>
-                        <p class="text-gray-600 font-medium">Certificates Issued</p>
+                        <p class="text-gray-600 font-medium">Academic Programs</p>
                     </div>
                 </div>
             </div>
@@ -203,7 +203,7 @@
                         <h3 class="text-3xl font-bold text-gray-800">Our Story</h3>
                         <p class="text-lg text-gray-700 leading-relaxed">
                             IntelleX was founded with a clear purpose — to create a learning environment where
-                            curiosity is celebrated, confidence is built, and every child is guided to discover
+                            curiosity is celebrated, confidence is built, and every scholars is guided to discover
                             their true potential.
                         </p>
                         <p class="text-lg text-gray-700 leading-relaxed">
@@ -246,7 +246,7 @@
                     <div
                         class="absolute -bottom-10 -left-8 sm:-left-12 bg-white p-6 rounded-xl shadow-xl border border-gray-100 hidden md:block">
                         <div class="text-center">
-                            <div class="text-4xl font-bold text-purple-600">15+</div>
+                            <div class="text-4xl font-bold text-purple-600">10+</div>
                             <p class="text-gray-600 mt-1">Years of Excellence</p>
                         </div>
                     </div>
@@ -271,25 +271,25 @@
                     <div class="bg-purple-50 p-8 rounded-2xl hover:bg-purple-100 transition-colors">
                         <div class="text-5xl mb-4">🌱</div>
                         <h4 class="text-xl font-bold text-gray-800 mb-3">Growth</h4>
-                        <p class="text-gray-700">Encouraging continuous learning and self-development</p>
+                        <p class="text-gray-700">Promoting lifelong learning and continuous academic and personal development</p>
                     </div>
 
                     <div class="bg-pink-50 p-8 rounded-2xl hover:bg-pink-100 transition-colors">
                         <div class="text-5xl mb-4">🤝</div>
-                        <h4 class="text-xl font-bold text-gray-800 mb-3">Respect</h4>
-                        <p class="text-gray-700">Building a culture of trust, dignity, and inclusion</p>
+                        <h4 class="text-xl font-bold text-gray-800 mb-3">Integrity</h4>
+                        <p class="text-gray-700">Upholding honesty, ethics, and mutual respect across our academic community</p>
                     </div>
 
                     <div class="bg-indigo-50 p-8 rounded-2xl hover:bg-indigo-100 transition-colors">
                         <div class="text-5xl mb-4">💡</div>
                         <h4 class="text-xl font-bold text-gray-800 mb-3">Innovation</h4>
-                        <p class="text-gray-700">Inspiring creativity and modern thinking</p>
+                        <p class="text-gray-700">Advancing critical thinking, research, and creative problem-solving</p>
                     </div>
 
                     <div class="bg-yellow-50 p-8 rounded-2xl hover:bg-yellow-100 transition-colors">
                         <div class="text-5xl mb-4">❤️</div>
                         <h4 class="text-xl font-bold text-gray-800 mb-3">Care</h4>
-                        <p class="text-gray-700">Nurturing minds with empathy and responsibility</p>
+                        <p class="text-gray-700">Striving for high standards in academics, teaching, and student outcomes</p>
                     </div>
                 </div>
             </div>
