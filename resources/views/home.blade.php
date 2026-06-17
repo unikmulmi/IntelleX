@@ -104,7 +104,7 @@
                                 </path>
                             </svg>
                         </div>
-                        <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">10,000+<span
+                        <h3 class="text-4xl md:text-5xl font-bold text-gray-900 mb-2">5,000+<span
                                 class="text-blue-600">+</span></h3>
                         <p class="text-gray-600 font-medium">Alumni Worldwide</p>
                     </div>
