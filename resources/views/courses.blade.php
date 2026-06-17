@@ -5,9 +5,10 @@
             <!-- Page Header -->
             <div class="text-center mb-16">
                 <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-                    Our Academic <span class="text-indigo-600">Programs</span>
+                    Our Academic <span class="text-purple-600">Programs</span>
                 </h1>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+                <div class="w-24 h-1 bg-indigo-600 mx-auto rounded-full"></div>
+                <p class="mt-6 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
                     Discover a wide range of programs designed to nurture talent, spark curiosity, and prepare students
                     for the future.
                 </p>
