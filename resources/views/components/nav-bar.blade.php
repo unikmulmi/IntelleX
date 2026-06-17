@@ -20,21 +20,21 @@
                     <span
                         class="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 rounded-full transition-all duration-300 group-hover:w-full"></span>
                 </a>
-                <a href="{{ route('academic') }}"
-                    class="group relative px-3 py-2 {{ request()->is('academic-info') ? 'text-indigo-700 transition-colors duration-300 font-medium tracking-wide text-base lg:text-lg' : ' text-gray-800 font-medium tracking-wide text-base lg:text-lg hover:text-indigo-700 transition-colors duration-300' }}">
-                    Academics
-                    <span
-                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 rounded-full transition-all duration-300 group-hover:w-full"></span>
-                </a>
-                <a href="{{ route('event') }}"
-                    class="group relative px-3 py-2 {{ request()->is('event') ? 'text-indigo-700 transition-colors duration-300 font-medium tracking-wide text-base lg:text-lg' : ' text-gray-800 font-medium tracking-wide text-base lg:text-lg hover:text-indigo-700 transition-colors duration-300' }}">
-                    Events
-                    <span
-                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 rounded-full transition-all duration-300 group-hover:w-full"></span>
-                </a>
                 <a href="{{ route('about') }}"
                     class="group relative px-3 py-2 {{ request()->is('about') ? 'text-indigo-700 transition-colors duration-300 font-medium tracking-wide text-base lg:text-lg' : ' text-gray-800 font-medium tracking-wide text-base lg:text-lg hover:text-indigo-700 transition-colors duration-300' }}">
                     About
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 rounded-full transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="{{ route('courses') }}"
+                    class="group relative px-3 py-2 {{ request()->is('courses') ? 'text-indigo-700 transition-colors duration-300 font-medium tracking-wide text-base lg:text-lg' : ' text-gray-800 font-medium tracking-wide text-base lg:text-lg hover:text-indigo-700 transition-colors duration-300' }}">
+                    Courses
+                    <span
+                        class="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 rounded-full transition-all duration-300 group-hover:w-full"></span>
+                </a>
+                <a href="{{ route('events') }}"
+                    class="group relative px-3 py-2 {{ request()->is('events') ? 'text-indigo-700 transition-colors duration-300 font-medium tracking-wide text-base lg:text-lg' : ' text-gray-800 font-medium tracking-wide text-base lg:text-lg hover:text-indigo-700 transition-colors duration-300' }}">
+                    Events
                     <span
                         class="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 rounded-full transition-all duration-300 group-hover:w-full"></span>
                 </a>
@@ -67,20 +67,20 @@
               {{ request()->is('/') ? 'text-indigo-700' : 'text-gray-800 hover:bg-indigo-50 hover:text-indigo-700' }}">
                 Home
             </a>
-            <a href="{{ route('academic') }}"
-                class="block px-5 py-3 text-lg font-medium rounded-xl transition-colors 
-              {{ request()->is('academic-info') ? 'text-indigo-700' : 'text-gray-800 hover:bg-indigo-50 hover:text-indigo-700' }}">
-                Academics
-            </a>
-            <a href="{{ route('event') }}"
-                class="block px-5 py-3 text-lg font-medium rounded-xl transition-colors 
-              {{ request()->is('event') ? 'text-indigo-700' : 'text-gray-800 hover:bg-indigo-50 hover:text-indigo-700' }}">
-                Events
-            </a>
             <a href="{{ route('about') }}"
                 class="block px-5 py-3 text-lg font-medium rounded-xl transition-colors 
               {{ request()->is('about') ? 'text-indigo-700' : 'text-gray-800 hover:bg-indigo-50 hover:text-indigo-700' }}">
                 About
+            </a>
+            <a href="{{ route('courses') }}"
+                class="block px-5 py-3 text-lg font-medium rounded-xl transition-colors 
+              {{ request()->is('courses') ? 'text-indigo-700' : 'text-gray-800 hover:bg-indigo-50 hover:text-indigo-700' }}">
+                Courses
+            </a>
+            <a href="{{ route('events') }}"
+                class="block px-5 py-3 text-lg font-medium rounded-xl transition-colors 
+              {{ request()->is('events') ? 'text-indigo-700' : 'text-gray-800 hover:bg-indigo-50 hover:text-indigo-700' }}">
+                Events
             </a>
             <a href="{{ route('contact') }}"
                 class="block px-5 py-3 text-lg font-medium rounded-xl transition-colors 

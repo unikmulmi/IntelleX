@@ -55,9 +55,9 @@
                             class="hover:text-indigo-400 transition-colors duration-300">Home</a></li>
                     <li><a href="{{ route('about') }}"
                             class="hover:text-indigo-400 transition-colors duration-300">About Us</a></li>
-                    <li><a href="{{ route('academic') }}"
-                            class="hover:text-indigo-400 transition-colors duration-300">Academics</a></li>
-                    <li><a href="{{ route('event') }}"
+                    <li><a href="{{ route('courses') }}"
+                            class="hover:text-indigo-400 transition-colors duration-300">Courses</a></li>
+                    <li><a href="{{ route('events') }}"
                             class="hover:text-indigo-400 transition-colors duration-300">Events</a></li>
                     <li><a href="{{ route('contact') }}"
                             class="hover:text-indigo-400 transition-colors duration-300">Contact</a></li>
