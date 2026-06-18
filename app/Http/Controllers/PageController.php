@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Course;
+
 class PageController extends Controller
 {
     public function homePage(){
@@ -17,7 +19,9 @@ class PageController extends Controller
     }
 
     public function coursesPage(){
-        return view('courses');
+        $courses = Course::all();
+        
+        return view('courses' , ['courses' => $courses]);
     }
 
     public function eventsPage(){
