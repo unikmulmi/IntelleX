@@ -44,8 +44,7 @@
                                 Annual Cultural Fest – "Sanskriti 2026"
                             </h4>
                             <p class="text-gray-600 dark:text-gray-300 mb-4">
-                                Dance, drama, music, fashion show and much more — showcasing the rich cultural diversity
-                                of our students.
+                                Dance, drama, music, fashion show and much more
                             </p>
                             <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
                                 <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -69,7 +68,7 @@
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
-                    <!-- Past Event 1 -->
+                    <!-- Past Event  -->
                     <div class="group relative overflow-hidden rounded-xl shadow-lg">
                         <div class="h-64 bg-gradient-to-br from-cyan-400 to-teal-600 flex items-center justify-center">
                             <span class="text-white text-9xl opacity-70">🎤</span>
