@@ -15,3 +15,4 @@ Route::get('/events', [PageController::class, 'eventsPage'])->name('events');
 
 Route::get('/contact', [PageController::class, 'contactPage'])->name('contact');
 
+Route::post('/contact' , [PageController::class , 'storeContactResponses']);
