@@ -46,7 +46,7 @@
                                     {{ $upcomingEvent->title }}
                                 </h4>
                                 <p class="text-gray-600 dark:text-gray-300 mb-4">
-                                    {{ Str::words($upcomingEvent->description, 20, '...') }}
+                                    {{ Str::words($upcomingEvent->description, 21, '...') }}
                                 </p>
                                 <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
                                     <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">

@@ -60,4 +60,11 @@ class PageController extends Controller
 
         return back()->with('success', 'Your message has been sent successfully!');
     }
+
+    public function showCourses(string $slug)
+    {
+        $course = Course::where('slug' , $slug)->firstOrFail();
+
+        return view('course' , ['course' => $course]);
+    }
 }

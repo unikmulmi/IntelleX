@@ -39,7 +39,7 @@
                                 {{ $course->description }}
                             </p>
                             <div class="flex justify-between items-center">
-                                <a href="#"
+                                <a href="/courses/{{ $course->slug }}"
                                     class="text-indigo-600 font-medium hover:text-indigo-700 flex items-center gap-1">
                                     View Details →
                                 </a>

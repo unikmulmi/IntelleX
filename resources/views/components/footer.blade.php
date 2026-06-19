@@ -14,7 +14,7 @@
                 </p>
                 <div class="flex space-x-6"> <!-- Increased spacing for better look -->
                     <!-- Facebook -->
-                    <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
+                    <a href="https://www.facebook.com" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
                         <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M22.675 0h-21.35c-.732 0-1.325.593-1.325 1.325v21.351c0 .731.593 1.324 1.325 1.324h11.495v-9.294h-3.128v-3.622h3.128v-2.671c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12v9.293h6.116c.73 0 1.323-.593 1.323-1.325v-21.35c0-.732-.593-1.325-1.325-1.325z" />
@@ -22,7 +22,7 @@
                     </a>
 
                     <!-- Instagram -->
-                    <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
+                    <a href="https://www.instagram.com/" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
                         <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 1.5A4.25 4.25 0 003.5 7.75v8.5a4.25 4.25 0 004.25 4.25h8.5a4.25 4.25 0 004.25-4.25v-8.5a4.25 4.25 0 00-4.25-4.25h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 1.5a3.5 3.5 0 100 7 3.5 3.5 0 000-7zm5.5-.5a1 1 0 110 2 1 1 0 010-2z" />
@@ -30,7 +30,7 @@
                     </a>
 
                     <!-- Twitter / X -->
-                    <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
+                    <a href="https://x.com/" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
                         <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
@@ -38,7 +38,7 @@
                     </a>
 
                     <!-- LinkedIn (optional – add if you want) -->
-                    <a href="#" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
+                    <a href="https://np.linkedin.com/" class="text-gray-400 hover:text-indigo-400 transition-colors duration-300">
                         <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
@@ -59,7 +59,7 @@
                             class="hover:text-indigo-400 transition-colors duration-300">Courses</a></li>
                     <li><a href="{{ route('gallery') }}"
                             class="hover:text-indigo-400 transition-colors duration-300">Gallery</a></li>
-                    <li><a href="{{ route('gallery') }}"
+                    <li><a href="{{ route('events') }}"
                             class="hover:text-indigo-400 transition-colors duration-300">Events</a></li>
                 </ul>
             </div>
