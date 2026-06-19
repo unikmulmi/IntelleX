@@ -8,7 +8,7 @@
                     Our Academic <span class="text-purple-600">Programs</span>
                 </h1>
                 <div class="w-24 h-1 bg-indigo-600 mx-auto rounded-full"></div>
-                <p class="mt-6 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
+                <p class="mt-6 text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
                     Discover a wide range of programs designed to nurture talent, spark curiosity, and prepare students
                     for the future.
                 </p>

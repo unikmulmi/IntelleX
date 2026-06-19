@@ -9,9 +9,9 @@
                     Get in <span class="text-purple-600">Touch</span>
                 </h2>
                 <div class="w-24 h-1 bg-indigo-600 mx-auto rounded-full"></div>
-                <p class="mt-6 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-                    We’d love to hear from you! Whether you have a query about admissions, academics, or just want to
-                    visit our campus — we're here to help.
+                <p class="mt-6 text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto leading-relaxed">
+                    We’d love to hear from you! Whether you have questions about admissions, academics,
+                    campus visits, or anything else — our team is ready to assist you.
                 </p>
             </div>
 

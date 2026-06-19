@@ -35,12 +35,12 @@
 
                 <!-- CTA Buttons -->
                 <div class="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in delay-300">
-                    <a href="#admissions"
+                    <a href="/contact"
                         class="px-8 py-4 bg-yellow-400 hover:bg-yellow-400 text-gray-900 font-semibold rounded-full text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
                         Apply Now
                     </a>
 
-                    <a href="#about"
+                    <a href="/about"
                         class="px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-sm border-2 border-white text-white font-semibold rounded-full text-lg transition-all duration-300">
                         Learn More →
                     </a>
