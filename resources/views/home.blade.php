@@ -303,7 +303,7 @@
             <!-- Section Header -->
             <div class="text-center max-w-3xl mx-auto mb-16">
                 <h2 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-                    Upcoming <span class="text-blue-600">Events</span> & Activities
+                    Upcoming <span class="text-purple-600">Events</span> & Activities
                 </h2>
                 <p class="text-xl text-gray-600 leading-relaxed">
                     Join us for exciting learning experiences, celebrations, and community moments!
@@ -313,64 +313,29 @@
             <!-- 3-Column Events Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
 
-                <!-- Event Card 1 -->
-                <div
-                    class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100">
-                    <div class="relative">
-                        <img src="https://www.nordangliaeducation.com/bsn-nanjing/-/media/bsn-nanjing/news-pics/wechat-image_2023042113353412.jpg?h=2111&w=2702&rev=9a656566fe4943288daeb226eaad6f6c&hash=CADCF2A70916DE3F02989152AADBEC7E"
-                            alt="Annual Sports Day"
-                            class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
-                        <div
-                            class="absolute top-4 right-4 bg-blue-600 text-white text-sm font-bold px-4 py-2 rounded-full">
-                            15 Mar
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex items-center gap-3 mb-3">
-                            <span
-                                class="bg-blue-100 text-blue-700 text-xs font-semibold px-3 py-1 rounded-full">Sports</span>
-                            <span class="text-gray-500 text-sm">9:00 AM - 3:00 PM</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">
-                            Annual Sports Day 2026
-                        </h3>
-                        <p class="text-gray-600 mb-4 line-clamp-3">
-                            Cheer for your favorite house! Athletics, fun races, tug-of-war, and prize distribution.
-                        </p>
-                        <a href="#"
-                            class="inline-flex items-center text-blue-600 font-medium hover:text-blue-800 transition-colors">
-                            Learn More
-                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-
+                @foreach ($upcomingEvents as $upcomingEvent)
+                    
                 <!-- Event Card 2 -->
                 <div
                     class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100">
                     <div class="relative">
-                        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80"
-                            alt="Science Exhibition"
+                        <img src="{{ url('storage' , $upcomingEvent->image )}}"
+                            alt="{{ $upcomingEvent->title }}"
                             class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
                         <div
-                            class="absolute top-4 right-4 bg-purple-600 text-white text-sm font-bold px-4 py-2 rounded-full">
-                            28 Mar
+                            class="absolute top-4 right-4 bg-white dark:bg-gray-900 text-purple-600 dark:text-purple-400 px-4 py-2 rounded-full font-bold shadow-md">
+                            {{ $upcomingEvent->event_datetime->format('d M Y') }}
                         </div>
                     </div>
                     <div class="p-6">
                         <div class="flex items-center gap-3 mb-3">
-                            <span
-                                class="bg-purple-100 text-purple-700 text-xs font-semibold px-3 py-1 rounded-full">Science</span>
-                            <span class="text-gray-500 text-sm">10:00 AM - 2:00 PM</span>
+                            <span class="text-gray-500 text-sm">{{ $upcomingEvent->event_datetime->format('g:i A') }} onwards.</span>
                         </div>
                         <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
-                            Annual Science & Innovation Expo
+                            {{ $upcomingEvent->title }}
                         </h3>
                         <p class="text-gray-600 mb-4 line-clamp-3">
-                            Students showcase amazing projects, experiments, robotics, and sustainable innovations.
+                            {{ Str::words($upcomingEvent->description, 20, '...') }}
                         </p>
                         <a href="#"
                             class="inline-flex items-center text-purple-600 font-medium hover:text-purple-800 transition-colors">
@@ -383,47 +348,13 @@
                     </div>
                 </div>
 
-                <!-- Event Card 3 -->
-                <div
-                    class="group bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-gray-100">
-                    <div class="relative">
-                        <img src="https://images.unsplash.com/photo-1588075592446-265fd1e6e76f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1474&q=80"
-                            alt="Annual Day"
-                            class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
-                        <div
-                            class="absolute top-4 right-4 bg-red-600 text-white text-sm font-bold px-4 py-2 rounded-full">
-                            12 Apr
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex items-center gap-3 mb-3">
-                            <span
-                                class="bg-red-100 text-red-700 text-xs font-semibold px-3 py-1 rounded-full">Cultural</span>
-                            <span class="text-gray-500 text-sm">5:00 PM onwards</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-red-600 transition-colors">
-                            Annual Day Celebration 2026
-                        </h3>
-                        <p class="text-gray-600 mb-4 line-clamp-3">
-                            Grand performances, cultural dances, drama, music, and awards ceremony.
-                        </p>
-                        <a href="#"
-                            class="inline-flex items-center text-red-600 font-medium hover:text-red-800 transition-colors">
-                            Learn More
-                            <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                    d="M9 5l7 7-7 7" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
-
+               @endforeach
             </div>
 
             <!-- View All Events Button -->
             <div class="text-center mt-16">
                 <a href="{{ route('events') }}"
-                    class="inline-block bg-blue-600 text-white font-semibold px-10 py-4 rounded-full text-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
+                    class="px-10 py-4 border-2 border-purple-600 text-purple-600 font-semibold rounded-full hover:bg-indigo-600 hover:text-white transition-all">
                     View All Events & Calendar →
                 </a>
             </div>

@@ -6,9 +6,9 @@
             <!-- Section Header -->
             <div class="text-center mb-16">
                 <h2 class="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-                    University Events & Campus Life
+                    Student Life & <span class="text-purple-600">Events</span>
                 </h2>
-                <div class="w-24 h-1 bg-green-600 mx-auto rounded-full"></div>
+                <div class="w-24 h-1 bg-indigo-600 mx-auto rounded-full"></div>
                 <p class="mt-6 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
                     Our university experience goes beyond the classroom. We host a vibrant calendar of academic
                     conferences, cultural festivals, workshops, sports activities, and student-led events that enrich
@@ -25,37 +25,39 @@
 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
-                    <!-- Event Card  -->
-                    <div
-                        class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700 group">
-                        <div class="relative">
-                            <div
-                                class="h-56 bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center">
-                                <span class="text-white text-8xl">🎭</span>
+                    @foreach ($upcomingEvents as $upcomingEvent)
+                        <!-- Event Card  -->
+                        <div
+                            class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 border border-gray-100 dark:border-gray-700 group">
+                            <div class="relative">
+                                <div
+                                    class="h-56 bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center">
+                                    <img src="{{ url('storage', $upcomingEvent->image) }}"
+                                        alt="{{ $upcomingEvent->title }}">
+                                </div>
+                                <div
+                                    class="absolute top-4 right-4 bg-white dark:bg-gray-900 text-purple-600 dark:text-purple-400 px-4 py-2 rounded-full font-bold shadow-md">
+                                    {{ $upcomingEvent->event_datetime->format('d M Y') }}
+                                </div>
                             </div>
-                            <div
-                                class="absolute top-4 right-4 bg-white dark:bg-gray-900 text-purple-600 dark:text-purple-400 px-4 py-2 rounded-full font-bold shadow-md">
-                                28 Feb 2026
+                            <div class="p-6">
+                                <h4
+                                    class="text-2xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
+                                    {{ $upcomingEvent->title }}
+                                </h4>
+                                <p class="text-gray-600 dark:text-gray-300 mb-4">
+                                    {{ Str::words($upcomingEvent->description, 20, '...') }}
+                                </p>
+                                <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
+                                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                                        <path
+                                            d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
+                                    </svg>
+                                    {{ $upcomingEvent->event_datetime->format('g:i A') }} onwards.
+                                </div>
                             </div>
                         </div>
-                        <div class="p-6">
-                            <h4
-                                class="text-2xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
-                                Annual Cultural Fest – "Sanskriti 2026"
-                            </h4>
-                            <p class="text-gray-600 dark:text-gray-300 mb-4">
-                                Dance, drama, music, fashion show and much more
-                            </p>
-                            <div class="flex items-center text-sm text-gray-500 dark:text-gray-400">
-                                <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                                    <path
-                                        d="M10 2a6 6 0 00-6 6v3.586l-.707.707A1 1 0 004 14h12a1 1 0 00.707-1.707L16 11.586V8a6 6 0 00-6-6zM10 18a3 3 0 01-3-3h6a3 3 0 01-3 3z" />
-                                </svg>
-                                4:00 PM onwards
-                            </div>
-                        </div>
-                    </div>
-
+                    @endforeach
                 </div>
 
             </div>
@@ -67,19 +69,21 @@
                 </h3>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-
-                    <!-- Past Event  -->
-                    <div class="group relative overflow-hidden rounded-xl shadow-lg">
-                        <div class="h-64 bg-gradient-to-br from-cyan-400 to-teal-600 flex items-center justify-center">
-                            <span class="text-white text-9xl opacity-70">🎤</span>
+                    @foreach ($pastEvents as $pastEvent)
+                        <!-- Past Event  -->
+                        <div class="group relative overflow-hidden rounded-xl shadow-lg">
+                            <div
+                                class="h-64 bg-gradient-to-br from-cyan-400 to-teal-600 flex items-center justify-center">
+                                <img src="{{ url('storage', $pastEvent->image) }}" alt="{{ $pastEvent->title }}">
+                            </div>
+                            <div
+                                class="absolute inset-0 bg-black bg-opacity-40 flex items-end p-6 transition-opacity group-hover:bg-opacity-60">
+                                <h4 class="text-xl font-bold text-white">
+                                    {{ $pastEvent->title }}
+                                </h4>
+                            </div>
                         </div>
-                        <div
-                            class="absolute inset-0 bg-black bg-opacity-40 flex items-end p-6 transition-opacity group-hover:bg-opacity-60">
-                            <h4 class="text-xl font-bold text-white">
-                                Annual Function 2025
-                            </h4>
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
 
