@@ -55,6 +55,14 @@
                                     </svg>
                                     {{ $upcomingEvent->event_datetime->format('g:i A') }} onwards.
                                 </div>
+                                <a href="/events/{{ $upcomingEvent->slug }}"
+                                    class="inline-flex items-center text-purple-600 font-medium hover:text-purple-800 transition-colors mt-4">
+                                    Learn More
+                                    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 5l7 7-7 7" />
+                                    </svg>
+                                </a>
                             </div>
                         </div>
                     @endforeach

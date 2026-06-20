@@ -67,4 +67,12 @@ class PageController extends Controller
 
         return view('course' , ['course' => $course]);
     }
+
+    
+    public function showEvents(string $slug)
+    {
+        $upcomingEvent = Event::where('slug' , $slug)->firstOrFail();
+
+        return view('event' , ['event' => $upcomingEvent]);
+    }
 }

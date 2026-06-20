@@ -337,7 +337,7 @@
                         <p class="text-gray-600 mb-4 line-clamp-3">
                             {{ Str::words($upcomingEvent->description, 20, '...') }}
                         </p>
-                        <a href="#"
+                        <a href="/events/{{ $upcomingEvent->slug }}"
                             class="inline-flex items-center text-purple-600 font-medium hover:text-purple-800 transition-colors">
                             Learn More
                             <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

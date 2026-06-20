@@ -15,6 +15,8 @@ Route::get('/gallery', [PageController::class, 'galleryPage'])->name('gallery');
 
 Route::get('/events', [PageController::class, 'eventsPage'])->name('events');
 
+Route::get('/events/{slug}' , [PageController::class , 'showEvents']);
+
 Route::get('/contact', [PageController::class, 'contactPage'])->name('contact');
 
 Route::post('/contact' , [PageController::class , 'storeContactResponses']);
