@@ -331,9 +331,9 @@
                         <div class="flex items-center gap-3 mb-3">
                             <span class="text-gray-500 text-sm">{{ $upcomingEvent->event_datetime->format('g:i A') }} onwards.</span>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
+                        <a href="/events/{{ $upcomingEvent->slug }}" class="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">
                             {{ $upcomingEvent->title }}
-                        </h3>
+                        </a>
                         <p class="text-gray-600 mb-4 line-clamp-3">
                             {{ Str::words($upcomingEvent->description, 20, '...') }}
                         </p>

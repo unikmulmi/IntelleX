@@ -41,10 +41,10 @@
                                 </div>
                             </div>
                             <div class="p-6">
-                                <h4
+                                <a href="/events/{{ $upcomingEvent->slug }}"
                                     class="text-2xl font-bold text-gray-900 dark:text-white mb-3 group-hover:text-purple-600 dark:group-hover:text-purple-400 transition-colors">
                                     {{ $upcomingEvent->title }}
-                                </h4>
+                                </a>
                                 <p class="text-gray-600 dark:text-gray-300 mb-4">
                                     {{ Str::words($upcomingEvent->description, 21, '...') }}
                                 </p>

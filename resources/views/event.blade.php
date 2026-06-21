@@ -140,7 +140,7 @@
 
         .prose h2,
         .prose h3 {
-            color: #4f46e5;
+            color: #9333EA;
         }
     </style>
 </x-layout>
