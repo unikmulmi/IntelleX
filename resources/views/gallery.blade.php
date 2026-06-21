@@ -20,7 +20,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 gallery-grid">
 
                 <!-- Static Gallery Items -->
-                <div class="gallery-item group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer aspect-square" data-category="campus">
+                <div class="gallery-item group relative overflow-hidden rounded-xl shadow-xl cursor-pointer aspect-square" data-category="campus">
                     <img src="{{ Vite::asset('resources/images/campus.png') }}" 
                          alt="Main Campus Building"
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
 
-                <div class="gallery-item group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer aspect-square" data-category="events">
+                <div class="gallery-item group relative overflow-hidden rounded-xl shadow-xl cursor-pointer aspect-square" data-category="events">
                     <img src="{{ Vite::asset('resources/images/farewell.jpg') }}" 
                          alt="Graduation Ceremony"
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
@@ -44,7 +44,7 @@
                     </div>
                 </div>
 
-                <div class="gallery-item group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer aspect-square" data-category="students">
+                <div class="gallery-item group relative overflow-hidden rounded-xl shadow-xl cursor-pointer aspect-square" data-category="students">
                     <img src="{{ Vite::asset('resources/images/library.jpg') }}" 
                          alt="Students in Library"
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
@@ -56,7 +56,7 @@
                     </div>
                 </div>
 
-                <div class="gallery-item group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer aspect-square" data-category="academics">
+                <div class="gallery-item group relative overflow-hidden rounded-xl shadow-xl cursor-pointer aspect-square" data-category="academics">
                     <img src="{{ Vite::asset('resources/images/lab.jpg') }}" 
                          alt="Lab Session"
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
@@ -68,7 +68,7 @@
                     </div>
                 </div>
 
-                <div class="gallery-item group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer aspect-square" data-category="campus">
+                <div class="gallery-item group relative overflow-hidden rounded-xl shadow-xl cursor-pointer aspect-square" data-category="campus">
                     <img src="{{ Vite::asset('resources/images/interior.jpg') }}" 
                          alt="Campus Garden"
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
@@ -80,7 +80,7 @@
                     </div>
                 </div>
 
-                <div class="gallery-item group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer aspect-square" data-category="events">
+                <div class="gallery-item group relative overflow-hidden rounded-xl shadow-xl cursor-pointer aspect-square" data-category="events">
                     <img src="{{ Vite::asset('resources/images/fest.jpg') }}" 
                          alt="Cultural Festival"
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
@@ -92,7 +92,7 @@
                     </div>
                 </div>
 
-                <div class="gallery-item group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer aspect-square" data-category="students">
+                <div class="gallery-item group relative overflow-hidden rounded-xl shadow-xl cursor-pointer aspect-square" data-category="students">
                     <img src="{{ Vite::asset('resources/images/basketball.webp') }}" 
                          alt="Sports Activity"
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
@@ -104,7 +104,7 @@
                     </div>
                 </div>
 
-                <div class="gallery-item group relative overflow-hidden rounded-3xl shadow-xl cursor-pointer aspect-square" data-category="academics">
+                <div class="gallery-item group relative overflow-hidden rounded-xl shadow-xl cursor-pointer aspect-square" data-category="academics">
                     <img src="https://images.unsplash.com/photo-1606761568499-6d2451b23c66?w=1920&auto=format&fit=crop" 
                          alt="Lecture Hall"
                          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
